@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Title</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/gill-sans-mt-2" rel="stylesheet">
+                
+
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+	<div class="page">
+		<!-- start header -->
+		<header class="header">
+			<div class="container">
+	
+				<a href="" class="logo">
+					<img src="img/logo.svg" alt="">
+				</a>
+	
+				<div class="languages-wrapper">
+					<a href="index.html" class="languags-item text-gradient">
+						EN
+					</a>
+					<span>/</span>
+					<a href="hindy.html" class="languags-item">
+						HI
+					</a>
+				</div>
+	
+			</div>
+		 </header>
+		
+		<!-- end header -->
+	
+
+	
+		<!-- start page content -->
+		 <div class="page-content checkout">
+			<div class="container">
+
+	
+					<div class="page-title text-gradient">
+						Thank you! We’ve received your payment.
+					</div>
+	
+					<p>
+						Please enter your details and we’ll prepare a report for you.
+					</p>
+	
+
+					<form action="" class="form">
+						<input type="text" class="input" placeholder="Name">
+						<input type="text" class="input" placeholder="Country and city">
+						<input type="text" class="input" placeholder="Date of birth">
+						<input type="text" class="input" placeholder="Time of birth">
+						<a href="" class="button">
+						Get Report
+					</a>
+					</form>
+	
+				
+
+					
+
+			
+			
+			</div>
+		 </div>
+		<!-- end page content -->
+	
+	
+		<!-- start footer -->
+		<footer class="footer">
+	
+			<div class="container">
+				<a class="contact-button">
+					<span>
+						Contact Me
+					</span>
+					 <img src="img/tg.svg" alt="">
+				</a>
+	
+				<div class="copy">
+					© 2025 AstroDharmic. All rights reserved.
+				</div>
+	
+				<div class="footer__menu">
+					<a href="privacy.html" class="footer-link">
+						Privacy Policy
+					</a>
+	
+					<span>
+						| 
+					</span>
+	
+					<a href="terms.html" class="footer-link">
+						Terms And Conditions
+					</a>
+				</div>
+			</div>
+		</footer>
+		<!-- end footer -->
+	</div>
+
+	
+
+	<script src="js/main.js"></script>
+
+		<script>
+  const input = document.querySelector('.apply-form .input');
+  const button = document.querySelector('.apply-form .apply-button');
+
+  input.addEventListener('input', () => {
+    if (input.value.trim() !== '') {
+      button.classList.remove('disable');
+    } else {
+      button.classList.add('disable');
+    }
+  });
+</script>
+	
+</body>
+</html>
